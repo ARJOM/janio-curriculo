@@ -1,0 +1,36 @@
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url('images/prism.png');
+    border-radius: 10px;
+    box-shadow: 5px 10px gray;
+}
+
+p, li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    color: white;
+    background: url('images/dark-honeycomb.png');
+}
+
+a:link, a:visited {
+	color: gray;
+    }
+
+a::after{
+    content: url('images/external.png')
+}
+
+th {
+    background-color: black;
+  }
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+#habilidades {
+    list-style-image: url("images/architecture.png");
+  }
+  
